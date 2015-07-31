@@ -1,12 +1,7 @@
-.control.labels{
-  display: none;
-}
-
+.control.labels,
+#projects_archived_holder,
 a[href="/premium"],
-.completed_history_holder a {
-  display: none;
-}
-
+.completed_history_holder a,
 li.promo {
   display: none;
 }
