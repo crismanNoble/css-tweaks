@@ -1,2 +1,2 @@
 # css-tweaks
-custimize the web
+customize the web
