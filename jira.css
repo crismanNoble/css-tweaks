@@ -1,0 +1,203 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700&subset=latin-ext";
+.atlassian-autocomplete #jqlerrormsg,
+.ghx-feedback-content, #announcement-banner,
+#ghx-board-name,
+#ghx-view-presentation,
+#ghx-view-tools,
+.iic-agile-plan,
+.ghx-assigned-work-stats,
+#ghx-classification-menu-column,
+.ghx-feedback,
+#report-toggle,
+.ghx-reset,
+.ghx-type,
+.ghx-flags,
+.ghx-sprint-info,
+.saved-search-operations,
+#footer
+{
+  display:none!important;
+}
+#js-plan-quickfilters dt,
+#ghx-backlog-search{
+  display:none
+}
+#advanced-search {
+  padding-left: 5px;
+  padding-right:5px;
+  height:33px!important;
+  overflow: hidden;
+}
+.ghx-everything-else .ghx-backlog-header,.ghx-backlog-container.ghx-open .ghx-backlog-header,.ghx-sprint-planned .ghx-backlog-header {
+  min-height:0px;
+  padding-bottom:5px
+}
+.ghx-marker .ghx-stat-total {
+  padding-top:3px;
+}
+.ghx-backlog-container .ghx-issues {
+  margin-top:0;
+}
+.ghx-issues,.ghx-backlog-container {
+  max-width: 900px;
+  border-right:none;
+  border-top:none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ghx-controls-plan .ghx-controls-filters {
+  padding-left:0
+}
+.aui-header {
+  padding: 0 5px;
+  right: 0;
+    z-index: 100;
+}
+
+#ghx-header {
+  height:0;
+  padding: 5px 25px;
+  position: absolute;
+  right:0;
+  z-index:100;
+}
+#ghx-modes-tools {
+  margin-top: 5px;
+}
+#logo {
+  display:none;
+}
+.aui-header-before,
+.aui-nav li:first-of-type,
+.aui-nav li:nth-of-type(2),
+.aui-nav li:nth-of-type(4),
+.aui-nav li:nth-of-type(6),
+.aui-header-secondary{
+  display:none!important;
+}
+.ghx-backlog-header .ghx-controls {
+  display:none
+}
+.ghx-meta .ghx-linked,
+.ghx-backlog-header .ghx-badge-group {
+  display:none
+}
+
+.aui-nav {
+    margin: 0 0 0 15px!important;
+  display:block
+
+}
+
+#ghx-content-main {
+  padding-top:10px;
+}
+.ghx-quick-content dd:nth-of-type(6),
+.ghx-quick-content dd:nth-of-type(4){
+  display:none;
+}
+.ghx-backlog-container.ghx-sprint-planned .ghx-issues {
+  padding-bottom:1px
+}
+#create_link {
+  text-shadow:none;
+  background-image:none;
+  background: #3b7fc4!important;
+  box-shadow:none;
+}
+
+.ghx-backlog-container, .ghx-backlog-container.ghx-closed {
+  margin-top:-1px;
+  border-width:1px;
+}
+.ghx-sprint-planned .ghx-backlog-header {
+  padding-top: 0px
+}
+#work-toggle {
+  border-radius: 0px 5px 5px 0;
+}
+.ghx-column > a {
+  display:none;
+}
+.ghx-everything-else .ghx-backlog-header {
+  padding-top:0;
+}
+.ghx-sprint-active.ghx-open .ghx-issues {
+  padding-bottom:0;
+}
+.ghx-marker {
+  height:auto;
+  padding-bottom: 0;
+}
+.ghx-marker:after {
+  display: none;
+}
+.ghx-agile .aui-label.ghx-label {
+  width: 20em
+}
+.ghx-agile .aui-label.ghx-label {
+    width: 14em;
+    max-width: 100%;
+    font-weight: 200;
+    color: rgba(255,255,255,.85)!important;
+}
+.ghx-backlog-container .ghx-issue-count {
+  font-weight: 200;
+  opacity: .3
+}
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+.ghx-label-0 {
+    display: none;
+}
+.ghx-backlog-header {
+  min-height:0;
+}
+.ghx-sprint-planned .ghx-backlog-header {
+  padding-bottom: 0;
+}
+.ghx-issue-compact .ghx-statistic-badge, .ghx-issue-compact .ghx-spacer {
+  min-width: 16px;
+}
+.ghx-sprint-info .ghx-dates .ghx-divider {
+  display:none;
+}
+.ghx-dates {
+  font-size: 10px;
+ opacity:.3;
+}
+.ghx-everything-else .ghx-backlog-header, .ghx-backlog-container.ghx-open .ghx-backlog-header, .ghx-sprint-planned .ghx-backlog-header {
+  padding-bottom:0;
+  margin-bottom:0;
+  border-bottom:0
+}
+.ghx-issue-compact {
+  border-left-width: 0px;
+  border-color: rgba(0,0,0,.05);
+}
+.ghx-grabber {
+  width:1px
+}
+.ghx-issue-compact.ghx-selected, .ghx-issue-compact .ghx-selected-group,.ghx-issue-compact.ghx-selected .ghx-end {
+    background: rgba(242, 242, 242,.8);
+  box-shadow:none;
+}
+.ghx-backlog-header .ghx-name {
+  font-weight: 400
+}
+.aui-badge {
+  rgba(0, 0, 0, 0.05);
+  font-weight: normal;
+     min-width: 16px;
+    box-sizing: border-box;
+}
+.aui-header {
+  border-bottom-color:#205081;
+}
+.ghx-meta .ghx-marker {
+  display:none;
+}
+.aui-expander-content.ghx-quick-content dt, #ghx-controls-sprint dt {
+  display:none;
+}
