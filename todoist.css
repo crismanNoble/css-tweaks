@@ -1,0 +1,12 @@
+.control.labels{
+  display: none;
+}
+
+a[href="/premium"],
+.completed_history_holder a {
+  display: none;
+}
+
+li.promo {
+  display: none;
+}
