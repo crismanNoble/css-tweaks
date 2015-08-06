@@ -201,3 +201,89 @@
 .aui-expander-content.ghx-quick-content dt, #ghx-controls-sprint dt {
   display:none;
 }
+.ghx-issue.ghx-selected .ghx-corner .aui-badge, .ghx-corner .aui-badge,
+.ghx-issue:hover .ghx-end, .ghx-issue.ghx-selected:hover .ghx-end, .ghx-issue.ghx-flagged:hover .ghx-end, .ghx-issue.ghx-flagged.ghx-selected:hover .ghx-end{
+  background-color: transparent;
+ opacity:.5
+}
+
+.ghx-issue .ghx-issue-content {
+  padding-left: 10px;
+}
+.ghx-issue .ghx-end,.ghx-issue.ghx-selected .ghx-end {
+  position: absolute;
+  top:10px;
+  right: 12px;
+  background-color:transparent;
+  box-shadow: none;
+}
+.ghx-avatar-img {
+  opacity: .2;
+  width:20px;
+  height:20px;
+  border-radius:0
+}
+.ghx-days,
+.ghx-controls-sprint{
+  display:none!important;
+}
+.ghx-column-headers .ghx-column {
+  border-bottom-width: 1px;
+}
+
+.ghx-column-headers .ghx-column, .ghx-columns .ghx-column {
+  background: rgba(0,0,0,.02);
+}
+
+.page-type-login header,.page-type-login  #sign-up-hint, .page-type-login  #login-form-cancel  {
+  display:none
+}
+.page-type-login .aui-page-panel-inner, .page-type-login .aui-page-panel {
+  width: 320px;
+}
+.page-type-login .aui-page-panel-content, .page-type-login #login-form, .page-type-login .form.aui .field-group {
+  padding: 0;
+  margin:0;
+}
+
+.page-type-login .buttons-container.form-footer,.page-type-login form.aui .field-group {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-right: 10px;
+}
+
+.page-type-login input, #login-form-password, #login-form-username {
+  width: 100%;
+  max-width: 400px
+}
+.page-type-login div.checkbox{
+  display:none
+}
+.page-type-login .buttons {
+  margin-bottom:10px
+}
+
+.page-type-login fieldset > fieldset.group, .page-type-login label,.aui-page-header-image {
+  display:none
+}
+.aui-page-header-image+.aui-page-header-main {
+  padding-left:0px;
+}
+.page-type-login {
+  min-width: 0px;
+}
+ul.aui-nav:before {
+    content: 'JIRA';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+
+  margin-right: 10px;
+}
+.issue-header .issue-header-content>.aui-page-header {
+  padding-top:5px
+}
+.toolbar-split.toolbar-split-right {
+  display: none;
+}
