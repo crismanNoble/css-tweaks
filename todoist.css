@@ -2,6 +2,10 @@
 Use it with user css chrome plugin:
 @import "https://crismannoble.github.io/css-tweaks/todoist.css";
 */
+@import "https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600,700&subset=latin-ext";
+*, body, html {
+  font-family: 'Open Sans', sans-serif;
+}
 .control.labels,
 #projects_archived_holder,
 a[href="/premium"],
